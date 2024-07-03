@@ -1,0 +1,111 @@
+.sideBar{
+    width:5% !important;
+    background-color:  #34495e ;
+    height:100vh;
+}
+.mainBox{
+    width:95% !important;
+    height:100vh;
+    /* background-color: blueviolet; */
+}
+
+
+
+.sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    align-items:center ;
+}
+.sidebarTop{
+    flex-grow: 1;
+    
+}
+.sidebarBottom{
+   margin-bottom: 20px;
+}
+
+
+.boxone{
+    /* background-color: aquamarine; */
+    height:8vh;
+    justify-content: space-between;
+}
+.topbar{
+    align-items: center;
+}
+.heading{
+    font-family: "Anton SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lining{
+    height: 1px;
+}
+
+.twothreefourContainer{
+    margin-top: 10px;
+    display: flex;
+    /* background-color: cornflowerblue; */
+    height:85vh;
+    justify-content: center;
+    gap: 40px;
+}
+.boxtwo{
+    /* background-color: white; */
+    height: 85vh;
+    width:25vw;
+    position:relative;
+}
+.profileimg{
+    height:180px;
+    width:50%;
+    margin-left: 40px;
+}
+.textfield{
+    border:0px solid red;
+    border-radius: 10%;
+    margin-top: 20px;
+    height: 35px;
+}
+button{
+    position:absolute;
+    border:0px solid black;
+    /* border-radius:10%; */
+    bottom:0px;
+    left:50px;
+}
+.boxthree{
+    /* background-color: rgb(227, 231, 118); */
+    height: 40vh;
+    /* width:25% !important; */
+    width:25vw;
+}
+.boxfour{
+    /* background-color: rgb(117, 99, 156); */
+    /* height: 50vh; */
+    /* width:25% !important; */
+    width:25vw;
+}
+.switchclasses{
+    margin-top: 20px;
+}
+.switchclass{
+    border-bottom:1px solid gray;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-self: flex-start;
+    position:relative;
+}
+.switchtext{
+    position:absolute;
+    right:0;
+}
+.switchclass span{
+    padding-top: 3px;
+}
+
+
