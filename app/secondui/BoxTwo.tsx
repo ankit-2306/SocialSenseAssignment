@@ -72,8 +72,8 @@ const BoxTwo = ({imgchange,nameChange}:any) => {
           size="small"
         />
       </div>
-      <button onClick={handleSave} className="bg-black text-white rounded-xl p-2 px-10">Save Changes</button>
-      <button className="ml-56 bg-slate-100 rounded-xl p-2 px-20">Cancel</button>
+      <button onClick={handleSave} className="bg-black button text-white rounded-xl p-2 px-10">Save Changes</button>
+      <button className="ml-56 button bg-slate-100 rounded-xl p-2 px-20">Cancel</button>
     </div>
   );
 };

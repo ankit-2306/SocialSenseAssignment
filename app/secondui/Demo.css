@@ -109,3 +109,53 @@ button{
 }
 
 
+
+@media (max-width:800px) {
+
+    .sideBar{
+        display:none;
+    }
+    .mainBox{
+        display:flex;
+        flex-direction: column;
+        /* height:100vh; */
+        width:100vw;
+    }
+    .boxone{
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .twothreefourContainer{
+        display:flex;
+        flex-direction: column;
+        height:380vh;
+    }
+    button{
+        left:10px;
+    }
+    .boxone{
+        /* margin-top: 20px; */
+        display:flex;
+        justify-content: space-between;
+
+    }.del{display:none;}
+    .boxtwo,.boxthree,.boxfour{
+        width: 90vw;
+        height:90vh;
+        /* overflow: hidden; */
+    }
+    .boxthree{
+        margin-top: 20px;
+        height:50vh;
+    }
+    .boxfour{
+        height:110vh;
+    }
+    .button{
+        position:fixed;
+        bottom: 0px;
+        /* display:none; */
+        padding: 5px;
+    }
+}

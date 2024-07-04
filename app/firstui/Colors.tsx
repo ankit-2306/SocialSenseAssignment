@@ -1,5 +1,5 @@
 'use-client';
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import { Box } from '@mui/material'
 import DoneIcon from '@mui/icons-material/Done';
 
@@ -70,10 +70,10 @@ const Colors = ({chng}:any) => {
   const [radArr,setRadArr]=useState(radialArr);
   const [prevChk,setPrevChk]=useState(2);
 
-  useEffect(()=>{
-    coloredArr[prevChk].chk=true;
-    setColorArr(coloredArr);
-  },[])
+  // useEffect(()=>{
+  //   coloredArr[prevChk].chk=true;
+  //   setColorArr(coloredArr);
+  // },[])
   
   
 
