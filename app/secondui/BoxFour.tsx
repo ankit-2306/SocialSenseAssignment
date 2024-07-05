@@ -39,7 +39,7 @@ const BoxFour = () => {
       </div>
       <div className="text-sm mt-5 mb-5">onboarding scripts</div>
       <div className="mt-1 switchclasses" >
-       {arr.map((obj:MyObject)=><SwitchComp key={obj.id} txt={obj.text} chek={obj.chk} per={obj.perc}/>)}
+       {arr.map((obj:MyObject)=><SwitchComp key={obj.id} txt={obj.text} chek={obj.chk} per={obj.perc }/>)}
       </div>
     </div>
   );
