@@ -29,7 +29,7 @@ const BoxTwo = ({imgchange,nameChange}:any) => {
   return (
     <div className="boxtwo">
       <div className="ml-5 mb-2">Profile Image</div>
-      <Image className="profileimg" src={imageFileUrl || '/Profile.png'} alt='Profile pic' height={180} width={180} />
+      <Image className="profileimg" src={imageFileUrl || '/Profile.png'} alt='Profile picture' height={180} width={180} />
       {/* <img className='profileimg' src={imageFileUrl || "/Profile.png"} alt="Profile pic" /> */}
       <label className=" ml-10 text-blue-800 text-s " htmlFor="img"><AddPhotoAlternateOutlinedIcon/>Choose profile picture</label>
       <input id="img" type="file" accept="Image/*" onChange={handleImageChange}  hidden/>
